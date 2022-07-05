@@ -26,9 +26,9 @@ const toDoData = [
 ];
 
 const data = () => {
-  const content = document.querySelector('lists');
+  const content = document.querySelector('.lists');
   for (let i = 0; i < toDoData.length; i += 1) {
-    const todo = document.createElement('div');
+    const todo = document.createElement('li');
     todo.classList.add('list-info');
     todo.innerHTML = `
        <div class="check">
